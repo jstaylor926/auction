@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="css/stylehome.css">
+    <link rel="stylesheet" type="text/css" href="css/modalStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/mobile-detect@1.4.4/mobile-detect.min.js"></script>
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+</head>
+
+<body>
+
+<div id="overview">
+    <svg class="desktop" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+         y="0px" viewBox="0 0 697 419" style="enable-background:new 0 0 697 419;" preserveAspectRatio="none"
+         width="100%"
+         height="100%">
+
+        <g id="Background_Image">
+
+            <image style="overflow:visible;enable-background:new    ;" width="2904" height="1746"
+                   id="Background_Image-2"
+                   xlink:href="images/backgroundHomepage.png" transform="matrix(0.24 0 0 0.24 0 0)">
+            </image>
+        </g>
+        <g id="Lobby">
+
+            <image style="overflow:visible;enable-background:new    ;" width="1729" height="369" id="Layer_1_Image-2"
+                   xlink:href="images/tableNoIcons.png" transform="matrix(0.24 0 0 0.24 235.68 330.48)">
+            </image>
+
+            <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="auditorium"
+                   xlink:href="images/auditorium.png" transform="matrix(0.78 0 0 0.78 286.38 349.58)">
+            </image>
+
+            <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new;"
+                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="lobby"
+                   xlink:href="images/lobby.png" transform="matrix(0.78 0 0 0.78 250.28 349.65)">
+            </image>
+            <image class="icons"
+                   style="cursor: pointer; overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('landing.html');"
+                   width="46" height="46"
+                   xlink:href="images/exhibit.png"
+                   transform="matrix(0.763 0 0 0.763 322.78 349.65)">
+            </image>
+ <!--           <g id="Artwork_1">
+                <g>
+                    <defs>
+                        <rect id="SVGID_1_" x="322.8" y="349.6" width="35" height="35"/>
+                    </defs>
+                    <clipPath id="SVGID_2_">
+                        <use xlink:href="#SVGID_1_" style="overflow:visible;"/>
+                    </clipPath>
+                    <g class="st0">
+                        <g>
+                            <defs>
+                                <rect id="SVGID_3_" x="322.8" y="349.6" width="35" height="35"/>
+                            </defs>
+                            <clipPath id="SVGID_4_">
+                                <use xlink:href="#SVGID_3_" style="overflow:visible;"/>
+                            </clipPath>
+                            <g class="st1">
+                                <g>
+                                    <defs>
+                                        <rect id="SVGID_5_" x="322.8" y="349.6" width="35" height="35"/>
+                                    </defs>
+                                    <clipPath id="SVGID_6_">
+                                        <use xlink:href="#SVGID_5_" style="overflow:visible;"/>
+                                    </clipPath>
+                                    <g class="st2">
+
+
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+-->
+            <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="store"
+                   xlink:href="images/store.png"
+                   transform="matrix(0.78 0 0 0.78 359.78 349.58)">
+            </image>
+
+            <image class="doorIcon" style="cursor: pointer;  overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('//www.google.com');" width="250" height="150" id="Door"
+                   xlink:href="images/Door.png"
+                   transform="matrix(0.39 0 0 0.41 407.37 321.52)">
+            </image>
+        </g>
+        <g id="Lobby-2">
+            <text transform="matrix(1 0 0 1 262.02 397.7)" class="st3 st4 st5">Lobby</text>
+        </g>
+        <g id="Auditorium-2">
+            <text transform="matrix(1 0 0 1 289.55 397.71)" class="st3 st4 st5">Auditorium</text>
+        </g>
+        <g id="Exhibit_Hall">
+            <text transform="matrix(1 0 0 1 327.67 398.19)" class="st3 st4 st5">Exhibit Hall</text>
+        </g>
+        <g id="Layer_3_Image">
+
+            <image style="overflow:visible;enable-background:new    ;" width="2904" height="135" id="Layer_3_Image-2"
+                   xlink:href="images/header.png" transform="matrix(0.24 0 0 0.24 0 0)">
+            </image>
+        </g>
+        <g id="Store-2">
+            <text transform="matrix(1 0 0 1 367.05 397.71)" class="st3 st4 st5">Store</text>
+        </g>
+        <g id="_2020_4DVXP.COM">
+            <text transform="matrix(1 0 0 1 78.25 413.28)" class="st6 st5"
+                  style="text-decoration: underline;cursor: pointer;"
+                  onclick="window.location.assign('https://www.yahoo.com/')">2020 4DVX
+            </text>
+            <text transform="matrix(1 0 0 1 103.82 413.28)" class="st6 st5" style="text-decoration: underline;">P</text>
+            <text transform="matrix(1 0 0 1 106.51 413.28)" class="st6 st5" style="text-decoration: underline;">.COM
+            </text>
+        </g>
+        <g id="Contact_4D_Support">
+            <text transform="matrix(1 0 0 1 191.4 413.28)" class="st6 st5"
+                  style="text-decoration: underline;cursor: pointer;"
+                  onclick="window.location.assign('https://en.wikipedia.org/wiki/Technical_support')">Contact 4D
+                Support
+            </text>
+        </g>
+        <g id="_4D_Privacy_Policy">
+            <text transform="matrix(1 0 0 1 136.34 413.28)" class="st6 st5"
+                  style="text-decoration: underline; cursor: pointer;"
+                  onclick="window.location.assign('https://en.wikipedia.org/wiki/Privacy_policy')">4D Privacy
+                Policy
+            </text>
+        </g>
+        <g id="_Type_">
+        </g>
+        <g id="_4DVXP:_A_4D_Virtual_Experience">
+            <text transform="matrix(1 0 0 1 12.98 20.64)" class="st7 st4 st8">4DVXP:</text>
+            <text transform="matrix(1 0 0 1 71.33 20.64)" class="st7 st4 st8"> A</text>
+            <text transform="matrix(1 0 0 1 85.22 20.64)" class="st7 st4 st8"> 4D</text>
+            <text transform="matrix(1 0 0 1 112.73 20.64)" class="st7 st4 st8">V</text>
+            <text transform="matrix(1 0 0 1 122.46 20.64)" class="st7 st4 st8">irtual Experience</text>
+        </g>
+        <g id="Layer_5_Image">
+
+            <image style="overflow:visible;enable-background:new    ;" width="517" height="89" id="Layer_5_Image-2"
+                   xlink:href="images/searchBar.png" transform="matrix(0.24 0 0 0.24 506.88 4.08)">
+            </image>
+        </g>
+        <g id="Search_Site">
+            <text transform="matrix(1 0 0 1 626.13 19.44)" class="st7 st4 st9">Search Site</text>
+        </g>
+        <g id="Layer_7_Image" class="st10">
+
+            <image style="cursor: pointer; overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('//www.google.com');" width="589" height="135" id="Layer_7_Image-2"
+                   xlink:href="images/sarcBackground.png" transform="matrix(0.24 0 0 0.24 289.44 0)">
+            </image>
+        </g>
+        <g id="SARC_Info">
+            <text transform="matrix(1 0 0 1 312.24 21.6)" class="st11 st4 st12">SARC Info</text>
+
+        </g>
+        <g id="Layer_8_Image">
+
+            <image style="overflow:visible;enable-background:new    ;" width="52" height="60" id="Layer_8_Image-2"
+                   xlink:href="images/logo.png" transform="matrix(0.24 0 0 0.24 55.92 402.48)">
+            </image>
+        </g>
+        <g id="tv">
+            <image type="button" class="open-modal" data-open="modal1" style="cursor: pointer; overflow:visible;"
+                   width="489"
+                   height="284"
+                   id="myBtn" xlink:href="images/tv.jpg" transform="matrix(0.24 0 0 0.24 213.8936 86.1702)">
+            </image>
+
+
+        </g>
+        <g id="Sign">
+            <a href="" onclick="return popitup('test.pdf')">
+                <image style="overflow:visible;cursor: pointer" width="399" height="144" id="attendeeGuide_1_"
+                       xlink:href="images/attendeeGuide.jpg" transform="matrix(0.24 0 0 0.24 194.3957 198.4317)">
+                </image>
+            </a>
+            <image style="overflow:visible;cursor: pointer"
+                   onclick="window.location.assign('https://high.org/exhibitions/');" width="356" height="125"
+                   id="exhibitSign_1_" xlink:href="images/exhibitSign.jpg"
+                   transform="matrix(0.24 0 0 0.24 212.9 303.6834)">
+            </image>
+        </g>
+    </svg>
+</div>
+<div id="mobileView">
+    <svg class="mobileDevice" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+         y="0px" viewBox="0 0 697 419" style="enable-background:new 0 0 697 419;" preserveAspectRatio="none"
+         height="100%">
+
+        <g id="Background_Image">
+
+            <image style="overflow:visible;enable-background:new    ;" width="2904" height="1746"
+                   id="Background_Image-2"
+                   xlink:href="images/backgroundHomepage.png" transform="matrix(0.24 0 0 0.24 0 0)">
+            </image>
+        </g>
+        <g id="Lobby">
+
+            <image style="overflow:visible;enable-background:new    ;" width="1729" height="369" id="Layer_1_Image-2"
+                   xlink:href="images/tableNoIcons.png" transform="matrix(0.24 0 0 0.24 235.68 330.48)">
+            </image>
+
+            <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="auditorium"
+                   xlink:href="images/auditorium.png" transform="matrix(0.78 0 0 0.78 286.38 349.58)">
+            </image>
+
+            <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new;"
+                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="lobby"
+                   xlink:href="images/lobby.png" transform="matrix(0.78 0 0 0.78 250.28 349.65)">
+            </image>
+            <g id="Artwork_1">
+                <g>
+                    <defs>
+                        <rect id="SVGID_1_" x="322.8" y="349.6" width="35" height="35"/>
+                    </defs>
+                    <clipPath id="SVGID_2_">
+                        <use xlink:href="#SVGID_1_" style="overflow:visible;"/>
+                    </clipPath>
+                    <g class="st0">
+                        <g>
+                            <defs>
+                                <rect id="SVGID_3_" x="322.8" y="349.6" width="35" height="35"/>
+                            </defs>
+                            <clipPath id="SVGID_4_">
+                                <use xlink:href="#SVGID_3_" style="overflow:visible;"/>
+                            </clipPath>
+                            <g class="st1">
+                                <g>
+                                    <defs>
+                                        <rect id="SVGID_5_" x="322.8" y="349.6" width="35" height="35"/>
+                                    </defs>
+                                    <clipPath id="SVGID_6_">
+                                        <use xlink:href="#SVGID_5_" style="overflow:visible;"/>
+                                    </clipPath>
+                                    <g class="st2">
+
+                                        <image class="icons"
+                                               style="cursor: pointer; overflow:visible;enable-background:new    ;"
+                                               onclick="window.location.assign('landing.html');"
+                                               width="46" height="46"
+                                               xlink:href="images/exhibit.png"
+                                               transform="matrix(0.763 0 0 0.763 322.78 349.65)">
+                                        </image>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+
+            <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="store"
+                   xlink:href="images/store.png"
+                   transform="matrix(0.78 0 0 0.78 359.78 349.58)">
+            </image>
+
+            <image class="doorIcon" style="cursor: pointer;  overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('//www.google.com');" width="250" height="150" id="Door"
+                   xlink:href="images/Door.png"
+                   transform="matrix(0.39 0 0 0.41 407.37 321.52)">
+            </image>
+        </g>
+        <g id="Lobby-2">
+            <text transform="matrix(1 0 0 1 262.02 397.7)" class="st3 st4 st5">Lobby</text>
+        </g>
+        <g id="Auditorium-2">
+            <text transform="matrix(1 0 0 1 289.55 397.71)" class="st3 st4 st5">Auditorium</text>
+        </g>
+        <g id="Exhibit_Hall">
+            <text transform="matrix(1 0 0 1 327.67 398.19)" class="st3 st4 st5">Exhibit Hall</text>
+        </g>
+        <g id="Layer_3_Image">
+
+            <image style="overflow:visible;enable-background:new    ;" width="2904" height="135" id="Layer_3_Image-2"
+                   xlink:href="images/header.png" transform="matrix(0.24 0 0 0.24 0 0)">
+            </image>
+        </g>
+        <g id="Store-2">
+            <text transform="matrix(1 0 0 1 367.05 397.71)" class="st3 st4 st5">Store</text>
+        </g>
+        <g id="_2020_4DVXP.COM">
+            <text transform="matrix(1 0 0 1 78.25 413.28)" class="st6 st5"
+                  style="text-decoration: underline;cursor: pointer;"
+                  onclick="window.location.assign('https://www.yahoo.com/')">2020 4DVX
+            </text>
+            <text transform="matrix(1 0 0 1 103.82 413.28)" class="st6 st5" style="text-decoration: underline;">P</text>
+            <text transform="matrix(1 0 0 1 106.51 413.28)" class="st6 st5" style="text-decoration: underline;">.COM
+            </text>
+        </g>
+        <g id="Contact_4D_Support">
+            <text transform="matrix(1 0 0 1 191.4 413.28)" class="st6 st5"
+                  style="text-decoration: underline;cursor: pointer;"
+                  onclick="window.location.assign('https://en.wikipedia.org/wiki/Technical_support')">Contact 4D
+                Support
+            </text>
+        </g>
+        <g id="_4D_Privacy_Policy">
+            <text transform="matrix(1 0 0 1 136.34 413.28)" class="st6 st5"
+                  style="text-decoration: underline; cursor: pointer;"
+                  onclick="window.location.assign('https://en.wikipedia.org/wiki/Privacy_policy')">4D Privacy
+                Policy
+            </text>
+        </g>
+        <g id="_Type_">
+        </g>
+        <g id="_4DVXP:_A_4D_Virtual_Experience">
+            <text transform="matrix(1 0 0 1 12.98 20.64)" class="st7 st4 st8">4DVXP:</text>
+            <text transform="matrix(1 0 0 1 71.33 20.64)" class="st7 st4 st8"> A</text>
+            <text transform="matrix(1 0 0 1 85.22 20.64)" class="st7 st4 st8"> 4D</text>
+            <text transform="matrix(1 0 0 1 112.73 20.64)" class="st7 st4 st8">V</text>
+            <text transform="matrix(1 0 0 1 122.46 20.64)" class="st7 st4 st8">irtual Experience</text>
+        </g>
+        <g id="Layer_5_Image">
+
+            <image style="overflow:visible;enable-background:new    ;" width="517" height="89" id="Layer_5_Image-2"
+                   xlink:href="images/searchBar.png" transform="matrix(0.24 0 0 0.24 506.88 4.08)">
+            </image>
+        </g>
+        <g id="Search_Site">
+            <text transform="matrix(1 0 0 1 626.13 19.44)" class="st7 st4 st9">Search Site</text>
+        </g>
+        <g id="Layer_7_Image" class="st10">
+
+            <image style="cursor: pointer; overflow:visible;enable-background:new    ;"
+                   onclick="window.location.assign('//www.google.com');" width="589" height="135" id="Layer_7_Image-2"
+                   xlink:href="images/sarcBackground.png" transform="matrix(0.24 0 0 0.24 289.44 0)">
+            </image>
+        </g>
+        <g id="SARC_Info">
+            <text transform="matrix(1 0 0 1 312.24 21.6)" class="st11 st4 st12">SARC Info</text>
+
+        </g>
+        <g id="Layer_8_Image">
+
+            <image style="overflow:visible;enable-background:new    ;" width="52" height="60" id="Layer_8_Image-2"
+                   xlink:href="images/logo.png" transform="matrix(0.24 0 0 0.24 55.92 402.48)">
+            </image>
+        </g>
+        <g id="tv">
+            <image type="button" class="open-modal" data-open="modal1" style="cursor: pointer; overflow:visible;"
+                   width="489"
+                   height="284"
+                   id="myBtn" xlink:href="images/tv.jpg" transform="matrix(0.24 0 0 0.24 213.8936 86.1702)">
+            </image>
+
+
+        </g>
+        <g id="Sign">
+            <a href="" onclick="return popitup('test.pdf')">
+                <image style="overflow:visible;cursor: pointer" width="399" height="144" id="attendeeGuide_1_"
+                       xlink:href="images/attendeeGuide.jpg" transform="matrix(0.24 0 0 0.24 194.3957 198.4317)">
+                </image>
+            </a>
+            <image style="overflow:visible;cursor: pointer"
+                   onclick="window.location.assign('https://high.org/exhibitions/');" width="356" height="125"
+                   id="exhibitSign_1_" xlink:href="images/exhibitSign.jpg"
+                   transform="matrix(0.24 0 0 0.24 212.9 303.6834)">
+            </image>
+        </g>
+    </svg>
+</div>
+<div class="modal" id="modal1">
+    <div class="modal-dialog">
+        <header class="modal-header">
+            Welcome to Auction 4D
+            <button class="close-modal" aria-label="close modal" data-close>
+                X
+            </button>
+        </header>
+        <section class="modal-content">
+            <video controls width="100%">
+                <source src="images/Trees.mp4" type="video/mp4">
+            </video>
+        </section>
+        <footer class="modal-footer">
+            Enjoy your visit!
+        </footer>
+    </div>
+</div>
+
+<script>
+    var md = new MobileDetect(window.navigator.userAgent);
+    if (md.mobile()) {
+        let mobileSvg = document.querySelector("#mobileView");
+        window.scroll(mobileSvg.scrollWidth / 2 - window.innerWidth / 2, 0)
+    }
+</script>
+<script>
+    function getViewed() {
+        let storedValue = localStorage.getItem("viewed");
+        return storedValue ? JSON.parse(storedValue) : {};
+    }
+
+    function save(viewed) {
+        localStorage.setItem("viewed", JSON.stringify(viewed));
+    }
+
+    function view(memberNumber) {
+        let viewed = getViewed();
+        viewed[memberNumber] = true;
+        save(viewed);
+    }
+
+    function hasViewed(memberNumber) {
+        return getViewed()[memberNumber] !== undefined;
+    }
+
+
+</script>
+
+<script>
+    function popitup(url) {
+        newwindow = window.open(url, 'name', 'height=300,width=650,screenX=400,screenY=350');
+        if (window.focus) {
+            newwindow.focus()
+        }
+        return false;
+    }
+</script>
+
+
+<script src="js/modalScript.js"></script>
+<script>
+    if (!hasViewed(localStorage.getItem("loggedInMember"))) {
+        view(localStorage.getItem("loggedInMember"));
+        document.querySelector("g#tv image").dispatchEvent(new Event("click"));
+    }
+</script>
+</body>
+</html>
