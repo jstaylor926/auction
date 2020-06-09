@@ -19,7 +19,7 @@
 </head>
 
 <body>
-
+<!--This div is so that the view will be full screen in desktops-->
 <div id="overview">
     <svg class="desktop" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -46,7 +46,7 @@
             </image>
 
             <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new;"
-                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="lobby"
+                   onclick="window.location.assign('homepage.html');" width="45" height="45" id="lobby"
                    xlink:href="images/lobby.png" transform="matrix(0.78 0 0 0.78 250.28 349.65)">
             </image>
             <image class="icons"
@@ -56,41 +56,7 @@
                    xlink:href="images/exhibit.png"
                    transform="matrix(0.763 0 0 0.763 322.78 349.65)">
             </image>
- <!--           <g id="Artwork_1">
-                <g>
-                    <defs>
-                        <rect id="SVGID_1_" x="322.8" y="349.6" width="35" height="35"/>
-                    </defs>
-                    <clipPath id="SVGID_2_">
-                        <use xlink:href="#SVGID_1_" style="overflow:visible;"/>
-                    </clipPath>
-                    <g class="st0">
-                        <g>
-                            <defs>
-                                <rect id="SVGID_3_" x="322.8" y="349.6" width="35" height="35"/>
-                            </defs>
-                            <clipPath id="SVGID_4_">
-                                <use xlink:href="#SVGID_3_" style="overflow:visible;"/>
-                            </clipPath>
-                            <g class="st1">
-                                <g>
-                                    <defs>
-                                        <rect id="SVGID_5_" x="322.8" y="349.6" width="35" height="35"/>
-                                    </defs>
-                                    <clipPath id="SVGID_6_">
-                                        <use xlink:href="#SVGID_5_" style="overflow:visible;"/>
-                                    </clipPath>
-                                    <g class="st2">
 
-
-                                    </g>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                </g>
-            </g>
--->
             <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new    ;"
                    onclick="window.location.assign('//www.google.com');" width="45" height="45" id="store"
                    xlink:href="images/store.png"
@@ -195,13 +161,14 @@
                 </image>
             </a>
             <image style="overflow:visible;cursor: pointer"
-                   onclick="window.location.assign('https://high.org/exhibitions/');" width="356" height="125"
+                   onclick="window.location.assign('exhibithall.html');" width="356" height="125"
                    id="exhibitSign_1_" xlink:href="images/exhibitSign.jpg"
                    transform="matrix(0.24 0 0 0.24 212.9 303.6834)">
             </image>
         </g>
     </svg>
 </div>
+<!--Keeps the window side scrolling for mobile devices-->
 <div id="mobileView">
     <svg class="mobileDevice" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
@@ -222,12 +189,12 @@
             </image>
 
             <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new    ;"
-                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="auditorium"
+                   onclick="window.location.assign('auditorium.html');" width="45" height="45" id="auditorium"
                    xlink:href="images/auditorium.png" transform="matrix(0.78 0 0 0.78 286.38 349.58)">
             </image>
 
             <image class="icons" style="cursor: pointer; overflow:visible;enable-background:new;"
-                   onclick="window.location.assign('//www.google.com');" width="45" height="45" id="lobby"
+                   onclick="window.location.assign('homepage.html');" width="45" height="45" id="lobby"
                    xlink:href="images/lobby.png" transform="matrix(0.78 0 0 0.78 250.28 349.65)">
             </image>
             <g id="Artwork_1">
@@ -258,7 +225,7 @@
 
                                         <image class="icons"
                                                style="cursor: pointer; overflow:visible;enable-background:new    ;"
-                                               onclick="window.location.assign('landing.html');"
+                                               onclick="window.location.assign('exhibithall.html');"
                                                width="46" height="46"
                                                xlink:href="images/exhibit.png"
                                                transform="matrix(0.763 0 0 0.763 322.78 349.65)">
@@ -375,7 +342,7 @@
                 </image>
             </a>
             <image style="overflow:visible;cursor: pointer"
-                   onclick="window.location.assign('https://high.org/exhibitions/');" width="356" height="125"
+                   onclick="window.location.assign('exhibithall.html');" width="356" height="125"
                    id="exhibitSign_1_" xlink:href="images/exhibitSign.jpg"
                    transform="matrix(0.24 0 0 0.24 212.9 303.6834)">
             </image>
@@ -440,7 +407,6 @@
         return false;
     }
 </script>
-
 
 <script src="js/modalScript.js"></script>
 <script>
