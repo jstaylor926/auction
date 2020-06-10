@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: #0b2e13;
+
+}
+html{
+    background-color: honeydew;
+}
+.bluejean{
+    position: center;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+#inlineFrameExample{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 0;
+    transform: translate(-50%, -50%);
+
+}
