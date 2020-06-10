@@ -127,3 +127,19 @@ html, body {
 .st24 {
     fill: #F6FAF6;
 }
+.arrowIcon:hover {
+    height: 53px;
+    width: 53px;
+}
+.pinkBar:hover {
+    height: 160px;
+    width: 365px;
+}
+.doorIcon:hover {
+    height: 155px;
+    width: 255px;
+}
+.icons:hover{
+    height: 150px;
+    width: 150px;
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="63" viewBox="0 0 55 63">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 75px;
+        fill: #f0c;
+        text-anchor: middle;
+        font-family: "Wingdings 3";
+      }
+    </style>
+  </defs>
+  <text id="arrow" class="cls-1" x="27.078" y="58.625"><tspan x="27.078">u</tspan></text>
+</svg>
