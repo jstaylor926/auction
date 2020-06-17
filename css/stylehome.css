@@ -2,22 +2,39 @@
     display: none;
 }
 
-@media all and (max-width: 35em) {
+@media all and (max-width: 35em)  {
     #mobileView {
         height: 100%;
         width: 100%;
         display: block;
     }
+
+
 }
 
-@media all and (min-width: 35.01em) {
+@media all and (min-width: 35.01em) and (max-width: 128em){
     #overview {
         height: 100%;
         width: 100%;
         display: block;
     }
+    #birdVideo{
+        width: 50%;
+        height: 50%;
+    }
+    #birdBox{
+        height: 50%;
+        width: 50%;
+    }
 }
+@media all and (min-width: 128.01em) {
+    #overview {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
 
+}
 html, body {
     width: 100%;
     height: 100%;
@@ -99,4 +116,3 @@ html, body {
     fill: #c9c9c9;
 
 }
-

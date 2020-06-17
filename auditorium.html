@@ -7,6 +7,7 @@
     <title>Auditorium Page</title>
 </head>
 <body>
+
 <div id="overview">
 
     <svg class="desktop" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +26,10 @@
 
         </g>
         <g transform="matrix(0.24 0 0 0.24 148.5 102.5)">
-            <foreignObject x="-151" y="-104" width="1960" height="1150">
+            <foreignObject id="birdBox" x="-151" y="-104" width="1960" height="1150">
                 <div xmlns="http://www.w3.org/1999/xhtml">
-                    <video width="1960" height="1150" controls autoplay style="position: fixed; ">
-                        <source src="images/dogvideo.mp4" type="video/mp4">
+                    <video id="birdVideo" width="1960" height="1150" controls autoplay style="position: fixed; ">
+                        <source src="https://auction-login.s3.us-east-2.amazonaws.com/images/Flying-Birds.mp4" type="video/mp4">
                     </video>
                 </div>
             </foreignObject>
@@ -148,7 +149,7 @@
             </image>
         </g>
 
-        </g>
+
 
     </svg>
 </div>
@@ -169,14 +170,15 @@
 
         </g>
         <g transform="matrix(0.24 0 0 0.24 148.5 102.5)">
-            <foreignObject x="-151" y="-104" width="1960" height="1150">
+            <foreignObject id="ipadbird" x="-151" y="-104" width="600" height="400">
                 <div xmlns="http://www.w3.org/1999/xhtml">
-                    <video width="1960" height="1150" controls autoplay style="position: fixed; ">
-                        <source src="images/dogvideo.mp4" type="video/mp4">
+                    <video width="600" height="500" controls autoplay style="position: fixed; ">
+                        <source src="https://auction-login.s3.us-east-2.amazonaws.com/images/dogvideo.mp4" type="video/mp4">
                     </video>
                 </div>
             </foreignObject>
         </g>
+
         <g id="Lobby">
 
             <image style="overflow:visible;enable-background:new    ;" width="1729" height="369" id="iconTable"
@@ -292,11 +294,10 @@
             </image>
         </g>
 
-        </g>
+
 
     </svg>
 </div>
-
 
 </body>
 </html>
