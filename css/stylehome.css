@@ -18,14 +18,8 @@
         width: 100%;
         display: block;
     }
-    #birdVideo{
-        width: 50%;
-        height: 50%;
-    }
-    #birdBox{
-        height: 50%;
-        width: 50%;
-    }
+
+
 }
 @media all and (min-width: 128.01em) {
     #overview {
