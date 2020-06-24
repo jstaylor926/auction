@@ -9,7 +9,9 @@
 <body>
 
 <div id="overview">
-
+    <video id="birdVideo" controls autoplay style="position: fixed; ">
+        <source src="https://auction-login.s3.us-east-2.amazonaws.com/images/Flying-Birds.mp4" type="video/mp4">
+    </video>
     <svg class="desktop" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
          y="0px" viewBox="0 0 697 419" style="enable-background:new 0 0 697 419;" preserveAspectRatio="none"
@@ -25,15 +27,7 @@
             </image>
 
         </g>
-        <g transform="matrix(0.24 0 0 0.24 148.5 102.5)">
-            <foreignObject id="birdBox" x="-151" y="-104" width="1960" height="1150">
-                <div xmlns="http://www.w3.org/1999/xhtml">
-                    <video id="birdVideo" width="1960" height="1150" controls autoplay style="position: fixed; ">
-                        <source src="https://auction-login.s3.us-east-2.amazonaws.com/images/Flying-Birds.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </foreignObject>
-        </g>
+
         <g id="Lobby">
 
             <image style="overflow:visible;enable-background:new    ;" width="1729" height="369" id="iconTable"
@@ -154,7 +148,9 @@
     </svg>
 </div>
 <div id="mobileView">
-
+    <video id="birdVideoMobile"  controls autoplay style="position: absolute; ">
+        <source src="https://auction-login.s3.us-east-2.amazonaws.com/images/Flying-Birds.mp4" type="video/mp4">
+    </video>
     <svg class="desktop" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
          xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
          y="0px" viewBox="0 0 697 419" style="enable-background:new 0 0 697 419;" preserveAspectRatio="none"
@@ -169,15 +165,17 @@
             </image>
 
         </g>
+<!--
         <g transform="matrix(0.24 0 0 0.24 148.5 102.5)">
-            <foreignObject id="ipadbird" x="-151" y="-104" width="600" height="400">
+            <foreignObject id="ipadbird" x="-151" y="-104" width="1960" height="1150">
                 <div xmlns="http://www.w3.org/1999/xhtml">
-                    <video width="600" height="500" controls autoplay style="position: fixed; ">
+                    <video width="1960" height="1150" controls autoplay style="position: fixed; ">
                         <source src="https://auction-login.s3.us-east-2.amazonaws.com/images/dogvideo.mp4" type="video/mp4">
                     </video>
                 </div>
             </foreignObject>
         </g>
+-->
 
         <g id="Lobby">
 
@@ -298,6 +296,30 @@
 
     </svg>
 </div>
+<script>
+    function resizeVideo (){
+        const video = document.querySelector("#birdVideo");
+        video.width = 0.676 * window.innerWidth;
+        video.height = 0.6463 * window.innerHeight;
+        video.style.top = (0.1945 * window.innerHeight) + "px";
+        video.style.left = (0.1607 * window.innerWidth) + "px";
 
+    }
+    resizeVideo();
+    window.addEventListener('resize',resizeVideo);
+    function resizeVideoMobile (){
+        const video = document.querySelector("#birdVideoMobile");
+        const container = document.querySelector("#mobileView");
+        video.width = 1.3326 * container.innerHeight;
+        video.height = 0.6463 * container.innerHeight;
+        video.style.top = (0.0987 * container.innerHeight) + "px";
+        video.style.left = (0.1607 * container.innerHeight) + "px";
+
+    }
+    resizeVideoMobile();
+    window.addEventListener('resize',resizeVideoMobile);
+
+
+</script>
 </body>
 </html>
